@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'mvcmovie20'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_84b32ed505d348e3b143a1722774ff8f }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_057ebd7c791c476c9551ee25dc9d0131 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
